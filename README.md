@@ -7,6 +7,8 @@ Final-year project focused on developing and evaluating a custom RoboCup Soccer 
 
 * [Prof. Dr. Vahid Garousi](https://www.vgarousi.com), Professor of Software Engineering, Queen’s University Belfast, UK
 
+The project was completed during the academic-year 2025-26, as a final-year BSc project in Queen’s University Belfast.
+
 ## Technical Documentation
 
 See [this PDF file](https://github.com/vgoruslu/robocup-football-simulation-QUB-2025-26/blob/main/Final%20Report-Ryan%20McLoughlin.pdf)
