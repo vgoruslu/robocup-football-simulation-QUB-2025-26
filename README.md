@@ -1,6 +1,15 @@
 # Ryan FC RoboCup 2D Team
 
-Final year project focused on developing and evaluating a custom RoboCup Soccer 2D team built on top of the HELIOS Base framework.
+Final-year project focused on developing and evaluating a custom RoboCup Soccer 2D team built on top of the HELIOS Base framework.
+
+## Development team and timeline
+* [Ryan McLoughlin](https://www.linkedin.com/in/ryan-mcloughlin-b4947b295/), Final Year CS student in QUB, UK
+
+* [Prof. Dr. Vahid Garousi](https://www.vgarousi.com), Professor of Software Engineering, Queen’s University Belfast, UK
+
+## Technical Documentation
+
+See [this PDF file](https://github.com/vgoruslu/robocup-football-simulation-QUB-2025-26/blob/main/Final%20Report-Ryan%20McLoughlin.pdf)
 
 ## Repository Structure
 
