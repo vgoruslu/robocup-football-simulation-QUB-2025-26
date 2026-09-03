@@ -1,0 +1,45 @@
+# RoboCup match logs
+*.rcg
+*.rcl
+*.log
+
+# Build files
+*.o
+*.a
+*.so
+*.lo
+*.la
+
+# Autotools / build system
+.deps/
+.dirstamp
+autom4te.cache/
+config.log
+config.status
+config.h
+Makefile
+Makefile.in
+libtool
+aclocal.m4
+stamp-h1
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Output files
+*.png
+*.html
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp

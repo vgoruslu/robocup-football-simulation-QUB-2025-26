@@ -1,0 +1,173 @@
+UC1: Execute Press-on-Loss in Advanced Areas
+Primary Actor: Outfield Agents
+Goal: Regain possession quickly while maintaining defensive structure
+Trigger: 
+•	Loss of possession in the attacking third
+Preconditions: 
+•	Team is in organised attacking shape
+•	Sufficient stamina available
+Main Flow:
+1.	Nearest agent applies immediate pressure to the ball carrier.
+2.	Surrounding agents block nearby passing lanes rather than engaging directly.
+3.	A temporary pressing cage is formed to delay progression.
+Conditional Triggers:
+•	Lateral pass near the touchline
+•	Poor first touch by opponent
+•	Opponent receives ball with back to goal
+•	Goalkeeper receives a back pass
+Postconditions:
+•	Defensive shape is preserved
+•	Stamina expenditure is reduced
+•	Exposure to counter-attacks is minimized
+
+UC2: Exploit Set Pieces as High-Impact Scoring Opportunities
+Primary Actor: Set-Piece Coordinator Agent
+Goal: Increase goal output from repeatable dead-ball situations
+Trigger:
+•	Award of a corner, free kick, or attacking throw-in
+Preconditions:
+•	Set-piece routine assigned
+•	Player roles predefined
+Main Flow:
+1.	Team transitions into structured set-piece formation.
+2.	Predefined movement patterns are executed.
+3.	Delivery is targeted based on prior match analysis.
+Postconditions:
+•	Increased shot quality from set plays
+•	Improved conversion from controlled situations
+
+UC3: Perform Predictive Goalkeeper Shot-Stopping
+Primary Actor: Goalkeeper Agent
+Goal: Improve save probability through optimal positioning
+Trigger:
+•	Opponent enters shooting range
+Preconditions:
+•	Ball carrier identified
+•	Shot angle calculable
+Main Flow:
+1.	Goalkeeper estimates probable shot direction.
+2.	Position is adjusted based on shooting angle and probability.
+3.	Save action is executed accordingly.
+Postconditions:
+•	Improved coverage of central and acute-angle shots
+
+UC4: Act as Sweeper Keeper During Build-Up
+Primary Actor: Goalkeeper Agent
+Goal: Improve build-up stability under pressure
+Trigger:
+•	Team in possession under high press
+Preconditions:
+•	No immediate shooting threat
+•	Passing lanes available
+Main Flow:
+1.	Goalkeeper moves into supporting outfield position.
+2.	Acts as additional passing option.
+3.	Distributes ball to relieve pressure or switch play.
+Constraints:
+•	Situational rules prevent high-risk positioning
+Postconditions:
+•	Fewer forced long clearances
+Improved press resistance
+
+UC5: Apply 4-2-3-1 Formation to Exploit Single Pivot Midfield
+Primary Actor: Tactical Controller
+Goal: Destabilise Helios’ 4-3-3 structure
+Trigger:
+•	Match start or tactical reset
+Preconditions:
+•	Opponent using single-pivot midfield
+Main Flow:
+1.	Team adopts 4-2-3-1 formation.
+2.	Double pivot blocks central lanes.
+3.	Wide positioning forces opposition width.
+Postconditions:
+•	Central progression restricted
+•	Improved defensive stability
+
+UC6: Execute Asymmetric Double Pivot Roles
+Primary Actor: Defensive Midfield Agents
+Goal: Disrupt opponent midfield balance
+Trigger:
+•	Controlled possession in midfield
+Main Flow:
+1.	One pivot maintains screening role.
+2.	Second pivot advances to progress play.
+3.	Opponent’s single pivot is drawn out of position.
+Postconditions:
+•	Central space exposed
+•	Improved vertical progression
+
+UC7: Maintain Rest Defence During Attacks
+Primary Actor: Defensive Unit
+Goal: Prevent immediate vertical counter-attacks
+Trigger:
+•	Team enters attacking phase
+Preconditions:
+•	Possession established
+Main Flow:
+1.	Minimum of three players remain behind the ball.
+2.	Central lanes are protected.
+3.	Counter-attacks are delayed or neutralised.
+Postconditions:
+•	Reduced counter-attacking threat
+Faster defensive recovery
+
+UC8: Enable Adaptive Behaviour of the Number 10
+Primary Actor: Attacking Midfielder Agent
+Goal: Introduce uncertainty into defensive decision-making
+Trigger:
+•	Sustained possession in attacking third
+Main Flow:
+1.	Agent evaluates defensive structure.
+2.	Selects one of the following behaviours:
+o	Drop deeper as a false 10
+o	Advance into the box as a secondary striker
+o	Drift into half-spaces to overload wide areas
+Postconditions:
+•	Defensive marking disrupted
+Increased chance creation
+
+UC9: Create Scoring Opportunities via Cutbacks
+Primary Actor: Wide and Central Attacking Agents
+Goal: Exploit Helios’ defensive retreat behaviour
+Trigger:
+•	Wide player reaches advanced wide area
+Main Flow:
+1.	Wide agent attacks the byline.
+2.	Central agents delay box entry.
+3.	Cutback is delivered to late-arriving runners.
+Postconditions:
+•	Higher-quality shooting opportunities
+•	Improved goal conversion
+
+UC10: Generate Match Statistics and Performance Visualisations
+Primary Actor: Analyst / Evaluation Module
+Secondary Actor: Coach / Developer
+Goal:
+Collect match performance data and generate graphical summaries to evaluate tactical effectiveness against Helios.
+Trigger
+•	End of match
+•	Manual evaluation request
+Preconditions
+•	Match has been completed
+•	Event data has been logged (passes, shots, possession, turnovers, etc.)
+Main Flow
+1.	System extracts key match statistics from the simulation logs.
+2.	Metrics are aggregated across defined phases of play.
+3.	Statistical summaries are generated (e.g. averages, totals, ratios).
+4.	Visual representations are produced, such as:
+o	Possession percentage over time
+o	Shot locations and xG heatmaps
+o	Goals conceded from counter-attacks
+o	Pressing recoveries in final third
+o	Set-piece goals and chances created
+5.	Graphs are exported for analysis and reporting.
+Postconditions
+•	Performance trends are observable
+•	Tactical changes can be quantitatively evaluated
+•	Results can be compared across multiple matches
+Outputs
+•	Line graphs
+•	Bar charts
+•	Heatmaps
+•	Match summary tables
